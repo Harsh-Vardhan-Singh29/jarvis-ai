@@ -1,6 +1,7 @@
 import pystray
 from pystray import MenuItem as item
 from PIL import Image
+from ui.settings import open_settings
 import os
 import threading
 from core.state import state
@@ -35,7 +36,9 @@ def run_tray():
         item("Wake", wake),
         item("Sleep", sleep),
         item("Stop Speaking", stop),
+        item("Settings", open_settings),
         item("Exit", exit_app),
+        
     )
 
     ICON = pystray.Icon(

@@ -1,27 +1,33 @@
-import os
-import sys
+import os,sys
+import winreg
 
-def enable_autostart(app_name="Jarvis"):
-    startup_dir = os.path.join(
-        os.environ["APPDATA"],
-        "Microsoft\\Windows\\Start Menu\\Programs\\Startup"
-    )
+APP_NAME = "JarvisAI"
+RUN_KEY = r"Software\Microsoft\Windows\CurrentVersion\Run"
 
-    exe_path = sys.executable
-    shortcut_path = os.path.join(startup_dir, f"{app_name}.lnk")
+def get_exe_path():
+    return os.path.abspath(sys.executable)
 
-    import win32com.client
-    shell = win32com.client.Dispatch("WScript.Shell")
-    shortcut = shell.CreateShortCut(shortcut_path)
-    shortcut.Targetpath = exe_path
-    shortcut.WorkingDirectory = os.path.dirname(exe_path)
-    shortcut.save()
+def enable_autostart():
+    with winreg.OpenKey(
+        winreg.HKEY_CURRENT_USER, RUN_KEY, 0, winreg.KEY_SET_VALUE
+    ) as key:
+        winreg.SetValueEx(key, APP_NAME, 0, winreg.REG_SZ, get_exe_path())
 
-def disable_autostart(app_name="Jarvis"):
-    startup_dir = os.path.join(
-        os.environ["APPDATA"],
-        "Microsoft\\Windows\\Start Menu\\Programs\\Startup"
-    )
-    shortcut_path = os.path.join(startup_dir, f"{app_name}.lnk")
-    if os.path.exists(shortcut_path):
-        os.remove(shortcut_path)
+def disable_autostart():
+    try:
+        with winreg.OpenKey(
+            winreg.HKEY_CURRENT_USER, RUN_KEY, 0, winreg.KEY_SET_VALUE
+        ) as key:
+            winreg.DeleteValue(key, APP_NAME)
+    except FileNotFoundError:
+        pass
+
+def is_autostart_enabled():
+    try:
+        with winreg.OpenKey(
+            winreg.HKEY_CURRENT_USER, RUN_KEY, 0, winreg.KEY_READ
+        ) as key:
+            winreg.QueryValueEx(key, APP_NAME)
+            return True
+    except FileNotFoundError:
+        return False

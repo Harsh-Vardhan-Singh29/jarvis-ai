@@ -1,0 +1,5 @@
+{
+  "autostart": false,
+  "sleep_timeout": 25,
+  "wake_word": true
+}

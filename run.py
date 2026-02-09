@@ -15,3 +15,6 @@ if __name__ == "__main__":
 
     # 2️⃣ run tray app on MAIN THREAD (required)
     run_tray()
+
+
+

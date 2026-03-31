@@ -1,9 +1,19 @@
 import sqlite3
+import os
+import sys
+
+def get_app_path():
+    if getattr(sys, 'frozen', False):
+        # Running as EXE
+        return os.path.dirname(sys.executable)
+    else:
+        # Running as Python
+        return os.path.dirname(os.path.abspath(__file__))
 
 class Memory:
     def __init__(self):
         self.conn = sqlite3.connect(
-            "jarvis_memory.db",
+            os.path.join(get_app_path(), "jarvis_memory.db"),
             check_same_thread=False   # ✅ KEY FIX
         )
         self.cursor = self.conn.cursor()

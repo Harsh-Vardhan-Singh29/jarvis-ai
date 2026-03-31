@@ -1,19 +1,17 @@
-import ollama
+def ask_llm(command, context=""):
+    try:
+        import ollama
 
-def ask_llm(prompt, memory_context=""):
-    full_prompt = f"""
-You are Jarvis, a concise assistant.
-Answer in 2–3 sentences unless the user asks for detail.
+        full_prompt = f"{context}\nUser: {command}"
 
-Context:
-{memory_context}
+        response = ollama.chat(
+            model="phi",
+            messages=[{"role": "user", "content": full_prompt}],
+            options={"num_ctx": 256}
+        )
 
-User:
-{prompt}
-"""
-    response = ollama.chat(
-        model="phi",
-        messages=[{"role": "user", "content": full_prompt}],
-        options={"num_ctx": 256}  # smaller context = faster
-    )
-    return response["message"]["content"]
+        return response["message"]["content"]
+
+    except Exception as e:
+        print("LLM ERROR:", e)
+        return "AI mode is currently offline."

@@ -1,0 +1,29 @@
+{
+    "user": {
+        "name": ""
+    },
+    "contacts": {
+        "mummy": "maa",
+        "project jarv": "ai",
+        "bro": "saksham",
+        "bhai": "Umang",
+        "meetha": "Shaurya",
+        "ai": "Project Jarv"
+    },
+    "favorite_apps": [
+        "youTube",
+        "WhatsApp",
+        "whatsApp"
+    ],
+    "work_habits": {
+        "app_usage": {
+            "youTube": 26,
+            "browser": 4,
+            "whatsApp": 10
+        },
+        "daily_actions": {}
+    },
+    "projects": {
+        "jarvis ai": "my assistant ai"
+    }
+}

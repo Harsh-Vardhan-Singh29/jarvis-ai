@@ -1,0 +1,24 @@
+[16244:14872:0307/103934.816:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:225] No machine level policy manager exists.
+[8320:1360:0307/103935.009:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[17612:13792:0307/103935.009:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[12684:16684:0307/103935.388:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[16524:7860:0307/103935.388:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[18536:2652:0307/103935.429:VERBOSE1:components\viz\service\main\viz_main_impl.cc:86] VizNullHypothesis is disabled (not a warning)
+[9780:18644:0307/103935.536:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[18536:16044:0307/103935.752:WARNING:ui\gl\angle_platform_impl.cc:52] HLSLCompiler.cpp:254 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(156,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[19204:18752:0307/103936.511:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[16244:14872:0307/103936.651:INFO:CONSOLE:179] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yf/r/uD5GDRFdj7w.js (179)
+[18536:18928:0307/103936.983:WARNING:ui\gl\angle_platform_impl.cc:52] HLSLCompiler.cpp:254 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(136,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[18536:18928:0307/103937.538:WARNING:ui\gl\angle_platform_impl.cc:52] HLSLCompiler.cpp:254 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(127,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[16244:8236:0307/103939.897:ERROR:google_apis\gcm\engine\registration_request.cc:290] Registration response error message: DEPRECATED_ENDPOINT
+[16244:14872:0307/103940.789:INFO:CONSOLE:183] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yM/r/UmKZ_7v4ooX.js (183)
+[16244:14872:0307/103940.941:INFO:CONSOLE:179] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yf/r/uD5GDRFdj7w.js (179)
+[16244:14872:0307/103944.322:INFO:CONSOLE:179] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yf/r/uD5GDRFdj7w.js (179)
+[13096:1284:0307/103953.715:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.
+[13096:1284:0307/103953.715:WARNING:net\extras\sqlite\sqlite_persistent_store_backend_base.cc:176] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:226 to client_task_runner_.

@@ -1,16 +1,16 @@
-import os
+import subprocess
 import webbrowser
 
 def execute_tool(tool_name):
     tool_name = tool_name.strip().lower()
 
-    # 🧠 Normalize AI outputs
+    # 🧠 Normalize AI outputs & use subprocess so the AI doesn't freeze
     if "notepad" in tool_name:
-        os.system("notepad")
+        subprocess.Popen("notepad")
         return "Opening Notepad 📝"
 
     if "calculator" in tool_name or "calc" in tool_name:
-        os.system("calc")
+        subprocess.Popen("calc")
         return "Opening Calculator 🧮"
 
     if "browser" in tool_name or "internet" in tool_name or "search" in tool_name:

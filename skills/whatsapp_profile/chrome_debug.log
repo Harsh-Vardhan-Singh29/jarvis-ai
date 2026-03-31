@@ -1,0 +1,47 @@
+[11616:3348:0215/185432.837:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[24740:16144:0215/185432.966:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[20620:24416:0215/185432.984:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[21332:24160:0215/185433.333:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[23204:21336:0215/185433.333:VERBOSE1:components\viz\service\main\viz_main_impl.cc:86] VizNullHypothesis is disabled (not a warning)
+[21948:20772:0215/185433.459:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[11616:3348:0215/185435.774:INFO:CONSOLE:9934] "LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable.", source: https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.wnqzu0Hp3ck.es5.O/am=AAAACAAABgg/d=1/br=1/rs=AGKMywHpqFy9KVoH3ytHOQcC1wACo633ow/m=kevlar_base_module,kevlar_main_module (9934)
+[11616:3348:0215/185437.222:INFO:CONSOLE:0] "Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.", source: https://www.youtube.com/ (0)
+[11616:3348:0215/185437.237:WARNING:chrome\browser\media\prefs\capture_device_ranking.h:255] Can't initialize the value of media.audio_input.user_preference_ranking because media.default_audio_capture_device isn't registered or is empty
+[11616:3348:0215/185437.237:WARNING:chrome\browser\media\prefs\capture_device_ranking.h:255] Can't initialize the value of media.video_input.user_preference_ranking because media.default_video_capture_Device isn't registered or is empty
+[20620:20636:0215/185437.417:ERROR:media\base\status.h:501] DecoderStatus::0
+[11616:3348:0215/185444.720:INFO:CONSOLE:0] "ResizeObserver loop completed with undelivered notifications.", source: https://www.youtube.com/results?search_query=love+me (0)
+[11616:25680:0215/185444.744:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[11616:3348:0215/185448.257:INFO:CONSOLE:0] "The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://www.youtube.com/watch?v=qdDVtFvJwUc&list=RDqdDVtFvJwUc&start_radio=1 (0)
+[20620:20636:0215/185448.908:ERROR:media\base\status.h:501] DecoderStatus::0
+[11616:3348:0215/185449.488:INFO:CONSOLE:0] "Access to fetch at 'https://googleads.g.doubleclick.net/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=2_20260213&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20260213%3Bm%3D1%3Bptype%3Df_view%3Btype%3Dview%3Butuid%3DHkj014U2CQ2Nv0UZeYpE_A%3Butvid%3DqdDVtFvJwUc%3Bw%3D1&foc_id=Hkj014U2CQ2Nv0UZeYpE_A&label=followon_view&ptype=f_view&random=326860793&utuid=Hkj014U2CQ2Nv0UZeYpE_A&cv_attributed=0' (redirected from 'https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=2_20260213&data=backend%3Dinnertube%3Bcname%3D1%3Bcver%3D2_20260213%3Bm%3D1%3Bptype%3Df_view%3Btype%3Dview%3Butuid%3DHkj014U2CQ2Nv0UZeYpE_A%3Butvid%3DqdDVtFvJwUc%3Bw%3D1&foc_id=Hkj014U2CQ2Nv0UZeYpE_A&label=followon_view&ptype=f_view&random=326860793&utuid=Hkj014U2CQ2Nv0UZeYpE_A') from origin 'https://www.youtube.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.", source: https://www.youtube.com/watch?v=qdDVtFvJwUc&list=RDqdDVtFvJwUc&start_radio=1 (0)
+[26352:25332:0215/185451.398:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[20108:6544:0215/185451.407:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[11616:3348:0215/185451.810:INFO:CONSOLE:180] "Event handler of 'x-storagemutated-1' event must be added on the initial evaluation of worker script.", source: https://static.whatsapp.net/rsrc.php/v4/yr/r/30OibO_6ynS.js (180)
+[11616:3348:0215/185454.141:INFO:CONSOLE:0] "The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://www.youtube.com/watch?v=qdDVtFvJwUc&list=RDqdDVtFvJwUc&start_radio=1 (0)
+[21496:25132:0215/185455.070:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 16
+[11616:3348:0215/185455.740:INFO:CONSOLE:77] "ErrorUtils caught an error:
+
+[uim] Attempting to set multiple UIM tree roots. Expecting only one. Existing root: App, New root: App (multiple-uim-roots)
+
+Subsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]", source: https://static.whatsapp.net/rsrc.php/v4/y1/r/nNYs_w7IK4e.js (77)
+[22800:26168:0215/185457.207:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185458.088:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185458.213:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185458.214:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185458.229:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185458.230:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185459.383:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185459.430:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185501.419:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185501.607:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185504.122:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185504.694:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[11616:25680:0215/185505.351:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[11616:3348:0215/185508.749:INFO:CONSOLE:0] "The resource https://i.ytimg.com/generate_204 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://www.youtube.com/watch?v=qdDVtFvJwUc&list=RDqdDVtFvJwUc&start_radio=1 (0)
+[22800:26168:0215/185509.159:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185509.854:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185516.263:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185517.120:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185517.263:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101
+[22800:26168:0215/185517.291:ERROR:net\socket\ssl_client_socket_impl.cc:916] handshake failed; returned -1, SSL error code 1, net_error -101

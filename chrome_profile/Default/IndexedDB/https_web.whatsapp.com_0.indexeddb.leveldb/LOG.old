@@ -1,0 +1,31 @@
+2026/02/27-14:10:56.524 197c Reusing MANIFEST C:\Users\vishu\OneDrive\Desktop\JARVIS_AI\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/27-14:10:56.524 197c Recovering log #90
+2026/02/27-14:10:56.549 197c Reusing old log C:\Users\vishu\OneDrive\Desktop\JARVIS_AI\chrome_profile\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000090.log 
+2026/02/27-14:11:08.421 197c Level-0 table #98: started
+2026/02/27-14:11:08.461 197c Level-0 table #98: 1042705 bytes OK
+2026/02/27-14:11:08.471 197c Delete type=0 #90
+2026/02/27-14:11:08.656 27a4 Compacting 1@1 + 4@2 files
+2026/02/27-14:11:08.748 27a4 Generated table #99@1: 50177 keys, 2215650 bytes
+2026/02/27-14:11:08.819 27a4 Generated table #100@1: 26782 keys, 2228654 bytes
+2026/02/27-14:11:08.903 27a4 Generated table #101@1: 52632 keys, 2126681 bytes
+2026/02/27-14:11:08.904 27a4 Compacted 1@1 + 4@2 files => 6570985 bytes
+2026/02/27-14:11:08.906 27a4 compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/02/27-14:11:08.907 27a4 Delete type=2 #92
+2026/02/27-14:11:08.908 27a4 Delete type=2 #93
+2026/02/27-14:11:08.908 27a4 Delete type=2 #94
+2026/02/27-14:11:08.908 27a4 Delete type=2 #95
+2026/02/27-14:11:08.908 27a4 Delete type=2 #98
+2026/02/27-14:11:10.435 27a4 Level-0 table #103: started
+2026/02/27-14:11:10.468 27a4 Level-0 table #103: 1090566 bytes OK
+2026/02/27-14:11:10.473 27a4 Delete type=0 #97
+2026/02/27-14:11:10.475 27a4 Compacting 1@1 + 3@2 files
+2026/02/27-14:11:10.545 27a4 Generated table #104@1: 43704 keys, 2205373 bytes
+2026/02/27-14:11:10.628 27a4 Generated table #105@1: 42911 keys, 2206921 bytes
+2026/02/27-14:11:10.705 27a4 Generated table #106@1: 40374 keys, 2198871 bytes
+2026/02/27-14:11:10.728 27a4 Generated table #107@1: 15287 keys, 535417 bytes
+2026/02/27-14:11:10.728 27a4 Compacted 1@1 + 3@2 files => 7146582 bytes
+2026/02/27-14:11:10.730 27a4 compacted to: files[ 0 0 4 0 0 0 0 ]
+2026/02/27-14:11:10.730 27a4 Delete type=2 #99
+2026/02/27-14:11:10.731 27a4 Delete type=2 #100
+2026/02/27-14:11:10.731 27a4 Delete type=2 #101
+2026/02/27-14:11:10.731 27a4 Delete type=2 #103

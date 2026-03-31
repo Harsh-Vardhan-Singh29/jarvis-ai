@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.pyc
+
+# Logs & DB
+*.log
+*.db
+*.sqlite3
+
+# Browser / unwanted data
+whatsapp_profile/
+*.ldb
+*.lock
+*.old
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
